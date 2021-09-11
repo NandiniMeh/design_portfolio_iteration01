@@ -1,0 +1,147 @@
+/* Import fonts from fonts.css */
+@import url(./fonts.css);
+
+
+
+.header_area .main-menu .navbar{
+    padding: 1rem 25rem ;
+}
+
+
+.header_area .main-menu .nav-item .nav-link{
+    text-transform:uppercase;
+    color: black;
+    padding:1.7rem;
+}
+
+.site-banner .site-title{
+    padding-top: 25%;
+}
+
+
+.site-banner .site-title h1 {
+    color: black;
+    font-family: monospace;
+    overflow: hidden;
+    border-right: .14em solid black; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .10em; 
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-cursor .5s step-end infinite;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-cursor {
+    from, to { border-color: transparent }
+    40% { border-color: black }
+  }
+
+  .site-banner .site-title h3 {
+    font-family: monospace;
+  }
+
+  .site-banner .banner-image {
+    margin-top: 80px;
+  }
+
+  /* About */
+
+.site-about .site-about-info h1{
+    padding-left: 40%;
+}
+
+
+.site-about-blog .site-blog{
+    padding-top: 15%;
+}
+
+.site-projects .site-projects-info h1{
+    padding-left: 45%;
+}
+
+.container-projects {
+    padding-left: 20%;
+}
+
+
+/* For TheHub */
+
+.my-mockup {
+padding-left: 19%;
+height:auto;
+width: 145%;
+}
+
+.my-prototype {
+padding-left: 19%;
+}
+
+.header_area_project .main-menu .navbar{
+  padding: 1rem 38rem ;
+}
+
+
+.header_area_project .main-menu .nav-item .nav-link{
+  text-transform:uppercase;
+  color: black;
+  padding:1.7rem;
+}
+
+.what-is{
+  padding-left: 40%;
+  font-family: monospace;
+}
+
+.role {
+  padding-left: 20%;
+  font-family: monospace;
+}
+
+.container-in h3{
+  text-align: center;
+}
+
+.container-in .design-text p{
+  padding-left: 32%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.survey {
+  padding-left: 20%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.personas{
+  padding-left: 20%;
+}
+
+.personas .persona-about{
+  padding-top: 15%;
+}
+
+.our-solution {
+  padding-left: 20%;
+}
